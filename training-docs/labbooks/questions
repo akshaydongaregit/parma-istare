@@ -1,0 +1,429 @@
+1. Find the closest number in an given array
+2. Whats is rehasing
+3. Can we override wait method in threads
+4. Composition and aggregation concepts in Java
+5. Custom immutable classes
+6. Employee and department classes are there in their employee class implements serializable interface and department is not implemented if we import department in employee then can we serialize department?
+7. Deserialize and serialize concept
+
+Difference between Serializable and Externalizable in Java Serialization?
+
+
+[08/04, 5:58 pm] Sarita Cg: PFB .
+
+Interview Questions :
+
+Core JAVA :
+-> String Immutable ( Why ) ?
+-> String Operations.
+-> Interface and Abstarct Class ( With Example)
+-> Overload and Override ( With Example )
+-> Constructors
+-> Instance, Class, Static, Final explain...
+-> This and Super use 
+-> A sample program with complexity analysis
+-> Exception handling ( With use of Throw and Throws ...)
+-> Create customised exception.
+-> Design patterns. ( With example implementation )
+-> Exaplain package
+-> Wrapper classes
+-> Explain Enum
+
+Collections :
+-> List and Map Difference
+-> Implementation of List with different operations.
+-> HashMap with implemenation
+-> Treemap, Hashmap and Treeset , Hashset Explaination
+( A program which will explain implementation of operations on List ) 
+
+
+Spring MVC :
+-> Design patterns
+-> Modules
+-> Annotations
+-> Configuration
+-> Difference between Spring Core and MVC 
+-> Validation Support
+-> Exception handling
+-> Spring security
+-> IOC Explain
+-> Why MVC ?
+-> File Upload in MVC with explaination of steps
+[08/04, 5:58 pm] Sarita Cg: 1. Introduce about yourself - tech stack that you have worked on - total experience?
+
+2. Features of Java-8? Enhancements of Date API ? what features of java 8 that you have worked on?
+
+3. Tell me the use case where you have used the features like stream / functional interface and lambda ?
+
+4. what is Predicate(Functional Interface) and its use?
+
+5. java 7 vs java 8?
+
+6. why spring boot? spring vs spring boot ?
+
+7. Spring-boot starter template ?
+
+8. spring boot annotation ?
+
+9. what are stereotype annotation ? use of @configuration/@component/@service/@bean and @repository?
+
+10. how to specify the configuration of database in spring boot?
+
+11. how to specify spring security configuration and tell me the approach for spring security for rest ws?
+
+12. spring-boot-profiles? logging configuration ? how remove embedded tomacat ?
+
+13. why microservice architecture?
+
+14. microservices vs monolithic architectures ?
+
+15. should every service is associated with its own database in microservices ? what is merit and demerit of such approach?
+
+- What if two or more services deals with same sql db ? what is merit and demerit of such approach?
+
+16. if service has its own database and want to deal with crud operation tell me the approach for designing such micro-service ?
+
+17. @Restcontroller / @RequestMapping / @Get / @Put / @RequestParam / @PathVarible based questions!
+
+18. what is docker ? what is containerization?
+
+19. how you have used docker in your project ?
+
+20. what is kubernetes? Explain kubectl command ? what is pod network ?
+
+21. experience with mongo-db / no-sql database ? / architecture of no-sql db / mongodb specifically ?
+
+22. docker commands that you have worked on?
+
+23. how to spon docker container? modes of docker containers?
+
+24. information about CG-project and BU discussion
+[08/04, 5:58 pm] Sarita Cg: Transaction Management
+Module worked on Spring boot/Spring
+Running spring boot on tomcat without using inbuild tomcat container
+Filters and Interceptors in Spring boot, uses and scenario where we can use them.
+If we want to reject an initiated request without actually calling the database and validating it before.
+Circular Dependecy/ Mitigation and Solution using Spring Boot
+TreeSet Impementation
+Hashmap and Hashset implementation
+Singleton class/object
+How to make an object/class immutable
+Stream parellel and sequential processing.
+Uses of Stream in Java 8 and what can we +achieve/scenarios
+Where do you use steam processing in your current application/architecture.
+PreJava8 if we have similar impelemntation of Stream processing or how could be acheive stream processing in Java 7/6
+How could be acheive multiple thread execution without using ExecutorSchedule of Java
+Concurrency Hashmap and it uses? benefits from HashMap
+Can we use volatile variable with Entity Object/Class/Dto.
+How can we hide data when we want to read and write data from files.
+> I answered "transient" varaibles then more on transient 
+> can we use transient variable with Entity Object/Class/Dto.
+types of String context
+How does inversion of control/DI work when Spring boot initializes
+Starting point of spring container intialization
+How can we restrict URI locations in Spring to access
+How can we manage multiple database with spring boot
+if we have primary secondary database then how can we manage the database request 
+	> Read request to Secondary DB
+	> Write requets to Primary DB
+
+How can we handle session validity in spring boot at the back end
+How do you manage session in your current application
+Have you worked with JWT? How do we use it
+Spring bean scopes and when to use which one and how do we create it.
+What is differnce between session bean and request bean
+
+Coding/Logical thinking question
+[08/04, 6:06 pm] Sarita Cg: 1. Introduce about yourself - tech stack that you have worked on - total experience?
+
+2. Features of Java-8? Enhancements of Date API ? what features of java 8 that you have worked on?
+
+3. Tell me the use case where you have used the features like stream / functional interface and lambda ?
+
+4. what is Predicate(Functional Interface) and its use?
+
+5. java 7 vs java 8?
+
+6. why spring boot? spring vs spring boot ?
+
+7. Spring-boot starter template ?
+
+8. spring boot annotation ?
+
+9. what are stereotype annotation ? use of @configuration/@component/@service/@bean and @repository?
+
+10. how to specify the configuration of database in spring boot?
+
+11. how to specify spring security configuration and tell me the approach for spring security for rest ws?
+
+12. spring-boot-profiles? logging configuration ? how remove embedded tomacat ?
+
+13. why microservice architecture?
+
+14. microservices vs monolithic architectures ?
+
+15. should every service is associated with its own database in microservices ? what is merit and demerit of such approach?
+
+- What if two or more services deals with same sql db ? what is merit and demerit of such approach?
+
+16. if service has its own database and want to deal with crud operation tell me the approach for designing such micro-service ?
+
+17. @Restcontroller / @RequestMapping / @Get / @Put / @RequestParam / @PathVarible based questions!
+
+18. what is docker ? what is containerization?
+
+19. how you have used docker in your project ?
+
+20. what is kubernetes? Explain kubectl command ? what is pod network ?
+
+21. experience with mongo-db / no-sql database ? / architecture of no-sql db / mongodb specifically ?
+
+22. docker commands that you have worked on?
+
+23. how to spon docker container? modes of docker containers?
+
+24. information about CG-project and BU discussion
+[10/04, 9:11 pm] Akshay Dongare: --lti
+tell me about collections
+comparator vs comparable
+iterator and cursor in java
+tell me about HashMap
+tell me about hashSet 
+what is generics? why generics ?
+tell about threads
+lifecycle of thread in java
+use of sleep and yeld methods  
+how concurrent hasmap implemented how its thread safe and synchronized.
+HashMap vs ConcurrentHashMap
+java 8 features 
+tell something about java 8 streams 
+
+scopes of beans in spring
+default scope in spring 
+difference between sigleon and prototype 
+why to use spring boot ?
+what is dependancy injection
+annotations in spring boot 
+how to do manual configuration in spring boot 
+what is spring MVC
+what are HTTP methods to use in Rest APi 
+what annotations used to define rest controller
+[11/04, 12:23 pm] Sarita Cg: ------Congnizent-------
+What is constructors
+Types of constructors
+How to handle exceptions
+What is user defined exceptions
+What is jdbc
+Types of drivers in jdbc
+Steps to connect to database
+What is logger
+Difference between log4j and log2
+What are levels of logger
+Lowest and highest level of logger
+Inheritance, types of inheritance in java
+
+Challenges you face in spring
+Explain spring starter pack
+How spring boot application starts
+What is restController
+What is restMapping
+Difference between rest controller and rest mapping
+How to deploy spring app on external tomcat
+What tasks main method does in spring
+What is distributed transaction
+Advantages of spring
+Disadvantages of spring
+
+Challenges in micro service
+What is micro service architecture
+Logging in micro services
+How to perform end to end testing in microservice
+[17/04, 1:14 am] Sarita Cg: What is Association in java?
+How can we implement has-a relation in java?
+New features in java 8 ?
+
+How can we remove particular elements from collection without using if condition?
+Suppose list has elements 1,2,3,4,5,6 and remove 3 this list by writing single line of code.
+
+write a code to calculate sum of all elements of the list. (Use stream API).
+
+Suppose you have int sum=20. and list with elements 1,2,3,4,2,5,2,6
+iterate over this list and subtract 2 from sum if list element=2 (write code using stream API)
+
+How to use class object as key in map.
+[17/04, 4:31 pm] Sarita Cg: Write a code to check weather number is armstring number or not
+
+What is transactions, hiw to manage transactions in springboot
+
+What are attribute or parameters of transaction
+
+How to declare a rest api telling it return response in json format
+
+What are best practices while using collections
+
+What is use of treemap, linked list, hashset
+
+How to handle exceptions in springboot
+
+What is starter pack of springboot
+
+Which logging framework u have used. What are different levels of logs
+
+What is assertion in log4jl
+
+Annotation for primary key in springboot if id is only one column and if primary key is combination of 2-3 attributes
+
+What is actuator
+
+How do we use / trace / debug issues on production in microservice architecture
+
+What is application context.
+
+What are different ways using which application context can be created
+
+What is basic main config file in springboot
+
+How to use jwt to handle sessions
+
+How to save database configurations in property file while considering security of them
+
+How to configure data source
+[23/04, 1:44 pm] Akshay Dongare: what are the features of java 8 ?
+what features you have used ?
+what is functional programming and what is advantages of it?
+what is functional interface in java? why there s only one method in functional interface?
+what is default method? why default method provided in java8?
+what is advantage of Optional in java 8?
+what is polymorphism? give one real time example of polymorphism.
+can we override static method?
+if method in base class is not throwing exception then can we throw checked exception while overriding some method in derived class?
+if no then why? if yes then why?
+what id DI in spring ?
+[23/04, 5:45 pm] Sarita Cg: 1) Design patterns?
+2) You have one string say "sarita" and write a code using stream api to count occurance of each character, like s=1,a=2
+3) sql injection?
+4) event driven programing?
+5) Limit clause avilable in oracle or only in mysql?
+6) example of checked exceltion?
+7) Is it possible to overload n override static methods?
+8) difference between crudrepository and jparepository?
+9) types of autowiring?
+10) how to read values from property files, in spring boot?
+11) how to handle profiling in spring boot?
+12) how to handle multiple property files in spring boot?
+13) what all different tools u used in current project?
+14) what is microservices?
+15) components of micro-service architecture?
+[24/04, 11:44 am] Sarita Cg: What is class loader? explain types
+What is string pool, where in memory it is created
+Comparator vs comparable
+Array vs vector
+Iterator vs enumarator
+ArrayList vs linkedList
+
+How do we perform binding in angular
+what is component in angular
+
+difference between spring and spring boot
+what is spring batch
+what is bean, explain its lifecycle and its types
+How to handle transaction in springboot
+can we use @repository & @transactional on same class
+How exactly the transactions are handled using @transactional
+what are stereotyed annotations in spring boot
+controller vs rests controller
+how spring application starts
+[26/04, 11:33 pm] Akshay Dongare: -- FIS Global ---
+literal pool in java 
+what is immutable object? why string is immutable? what is benifit of literal pool?
+what is design patterns? what design patterns used for java JDBC?
+what is singleton pattern? how to create siglton class?
+oop concepts. what is polymorphism and types. realtime use of polymorphism.
+diff between interface and abstract class. when to use abstract class and when to use interface.
+what is default method? 
+what is intern method?
+what is strictfp
+diff between collections and maps
+internal implimentation of hasmap.
+default implementation of equals() in object.
+when to override hascode()?
+difference between arraylist and linkedlist?
+way to get concurrent collection before java 8?
+what is cursor and types of cursors?
+give one name of fale safe iterator.
+what is controlleradvice in spring ?
+exception handling in spring.
+what is there in side java concurrent package?
+differene between comparator and comparable. why this methods return int value? what will happen we return 0 for all from comparable, will list sort?
+provide defination of comparator method.
+what are sterotype annontations in spring?
+DI in spring
+lifecycle of bean in spring
+difference between jsp and servlet
+list different implicit objects in jsp 
+what is session managment in jsp? how to manage session in jsp?
+different ways to access request object in jsp.
+list 10 annontations in spring
+what is AOP in spring and when to use it?
+how we can use git to push code? is it mandatory to get pull from git before pushing changes to upstream? if yes why?
+advantages of spring boot.
+what is spring boot starter dependancy? what dependancy will be used for web application in spring boot?
+different ways to create spring boot project.
+what is @Restcontroller. is there any difference between @Restcontroller and @Controller?
+can we create rest web service using @Controller?
+is it possible to return jsp from restcontroller?
+can we keep return type of controller method void?
+lifecycle of normal sping webapp, flow of request from client to app and back?
+what is difference between @Component and @Service/@Controller? 
+when we can use @Component?
+[29/04, 11:44 pm] Akshay Dongare: --FIS Global second round--
+What will happen if we add objects in hashset but dont implment hashCode and equals.
+What are the set methods? Implement Queue class without using any java collection feature.
+implement hashCode and equals methods for below class 
+String student {
+	public String name;
+	public String class;
+	Double marks;
+}
+Write lambda expression to filer students whose name starts with a and age between 18 to 20 from student objects list.
+How you have implented and used Docker and kubernetes in ur project?
+[02/05, 10:42 am] Sarita Cg: ----------------------HCL--------------------------
+what is dependency injection, how it works in spring boot
+what is lazy loading
+how to handle transactions in spring?
+what is isolation and propagation?
+what is difference between controller and restcontroller
+How to configure database in springboot
+what is use of DDL-auto in springboot? why we this property in springboot
+how to change default server port number in springboot
+what is dispatcher servelet?
+how to handle transactions in springboot?
+how to handle lazy loading in hibernate (without springboot)?
+what is view resolver in spring mvc?
+what is spring security?
+what is jwt token? use of jwt token?
+what jwt is preferred over Auth2?
+how to handle exceptions in springboot?
+what is use of @exceptionHandler annotation?
+what all annotations are used with @exceptionHandler in springboot to handle exceptions?
+what is entity?
+what is difference between entity and table?
+[05/05, 1:57 pm] Sarita Cg: What is class loader? explain types
+What is string pool, where in memory it is created
+Comparator vs comparable
+Array vs vector
+Iterator vs enumarator
+ArrayList vs linkedList
+
+How do we perform binding in angular
+what is component in angular
+
+difference between spring and spring boot
+what is spring batch
+what is bean, explain its lifecycle and its types
+How to handle transaction in springboot
+can we use @repository & @transactional on same class
+How exactly the transactions are handled using @transactional
+what are stereotyed annotations in spring boot
+controller vs rests controller
+how spring application starts
